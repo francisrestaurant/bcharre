@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "fonts";
+    src: url(fonts/Happy\ &\ Balloons.ttf);
+}
+
+*{
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.background{
+    background-image: url(images/francislook.jpg);
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    min-height: 100%;
+    background-color:rgba(0, 0, 0, 0.568) ;
+}
+.logo{
+    width: 60%;
+}
+.topics{
+border-radius: 10px;
+box-shadow: 0 0 10px black;
+background-color: #D8B25F;
+font-size: 70px;
+font-family: fonts;
+width: fit-content;
+margin: 0 auto;
+}
+.linkMenu{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+.delivery{
+border-radius: 10px;
+box-shadow: 0 0 10px black;
+background-color: #D8B25F;
+font-size: 4.5em;
+font-family: fonts;
+margin-top: 40px;
+width: fit-content;
+margin: 0 auto;
+}
+.linkDelivery{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+.lent{
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    background-color: #D8B25F;
+    font-size: 4.5em;
+    font-family: fonts;
+    margin-top: 40px;
+    width: fit-content;
+    margin: 0 auto;
+}
+.linklent{
+    color: black;
+    text-decoration: none;
+}
+.a{
+    margin-top: 20px;
+}
+.footer{
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.wa{
+    width: 80px;
+}
