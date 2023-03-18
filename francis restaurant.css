@@ -60,20 +60,6 @@ margin: 0 auto;
     color:rgb(0, 0, 0);
     text-decoration: none;
 }
-.lent{
-    border-radius: 10px;
-    box-shadow: 0 0 10px black;
-    background-color: #D8B25F;
-    font-size: 4.5em;
-    font-family: fonts;
-    margin-top: 40px;
-    width: fit-content;
-    margin: 0 auto;
-}
-.linklent{
-    color: black;
-    text-decoration: none;
-}
 .a{
     margin-top: 20px;
 }
