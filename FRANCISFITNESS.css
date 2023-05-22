@@ -10,11 +10,11 @@
 body{
     background-image: url(images/gynback.png);
     background-color: rgb(216, 175, 93);
-    background-size: 120px;
+    background-size: 300px;
 }
 .logo{
     margin-top: 25px;
-    width: 220px;
+    width: 450px;
     border-radius: 30px;
 }
 .span{
@@ -23,11 +23,11 @@ body{
 .OpeningNextMonth{
     width: fit-content;
     margin: 0 auto;
-    font-size: 25px;
+    font-size: 50px;
     background-color: white;
     border-radius: 30px;
     font-family: arial;
 }
 .divopening{
-    margin-top: 70px;
+    margin-top: 250px;
 }
