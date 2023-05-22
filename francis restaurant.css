@@ -1,3 +1,12 @@
+@font-face {
+    font-family: "fonts";
+    src: url(fonts/Happy\ &\ Balloons.ttf);
+}
+@font-face{
+    font-family: "gymfont";
+    src: url(fonts/SgtJhonO-JRW07.ttf);
+}
+
 *{
     align-items: center;
     align-content: center;
@@ -6,28 +15,79 @@
     text-align: center;
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+
 }
-body{
-    background-image: url(images/gynback.png);
-    background-color: rgb(216, 175, 93);
-    background-size: 120px;
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.background{
+    background-image: url(images/francislook.jpg);
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    min-height: 100%;
+    background-color:rgba(0, 0, 0, 0.568) ;
 }
 .logo{
-    margin-top: 25px;
-    width: 220px;
-    border-radius: 30px;
+    width: 60%;
 }
-.span{
-    color: white;
+.topics{
+border-radius: 10px;
+box-shadow: 0 0 10px black;
+background-color: #D8B25F;
+font-size: 70px;
+font-family: fonts;
+width: fit-content;
+margin: 0 auto;
 }
-.OpeningNextMonth{
+.linkMenu{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+.delivery{
+border-radius: 10px;
+box-shadow: 0 0 10px black;
+background-color: #D8B25F;
+font-size: 4.5em;
+font-family: fonts;
+margin-top: 40px;
+width: fit-content;
+margin: 0 auto;
+}
+.linkDelivery{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+.francisfitness{
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    background-color: #D8B25F;
+    font-size: 50px;
+    font-family: gymfont;
+    margin-top: 40px;
     width: fit-content;
     margin: 0 auto;
-    font-size: 25px;
-    background-color: white;
-    border-radius: 30px;
-    font-family: arial;
 }
-.divopening{
-    margin-top: 70px;
+.linkfrancisFitness{
+    color: black;
+}
+.a{
+    margin-top: 25px;
+}
+.footer{
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.wa{
+    width: 80px;
+}
+span{
+    color: #D8B25F;
 }
