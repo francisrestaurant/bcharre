@@ -24,7 +24,7 @@ body { margin: 0px; font-family: Montserrat; }
 .category-title-wrapper { width: 85%; margin: 0px auto; text-align: center;font-weight: 500; -webkit-text-stroke-width: 0.07px;
     -webkit-text-stroke-color: rgb(0, 0, 0); }
 
-.category-title-wrapper h2 { font-size: 50px; font-weight: 800; color: rgb(216, 175, 93); text-transform: uppercase; }
+.category-title-wrapper h2 { font-size: 38px; font-weight: 800; color: rgb(216, 175, 93); text-transform: uppercase; }
 
 .item-wrapper { display: flex; flex-direction: row; width: 85%; margin: -18px auto; align-items: baseline; }
 
