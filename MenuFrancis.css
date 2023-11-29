@@ -12,19 +12,19 @@
     src: url(fonts/OriginalBurger-Regular.ttf);
 }
 
-body { margin: 0px; font-family: Montserrat; }
-.backgroundmat{background-image: url(images/background.jpg);}
+body { margin: 0px; font-family: Montserrat; background-color: rgb(0 0 0); }
+
 
 .img-wrapper {  text-align: center; padding-top: 2.5em; padding-bottom: 2em;}
 
-.img-wrapper img { width: 20em;padding: 4px 3px 0px 10px; border-radius: 0em; }
+.img-wrapper img { width: 10em;padding: 4px 3px 0px 10px; border-radius: 0em; }
 
 .menu-wrapper {  width: 100%; margin: 0px auto; z-index: -1 !important; }
 
 .category-title-wrapper { width: 85%; margin: 0px auto; text-align: center;font-weight: 500; -webkit-text-stroke-width: 0.07px;
     -webkit-text-stroke-color: rgb(0, 0, 0); }
 
-.category-title-wrapper h2 { font-size: 38px; font-weight: 800; color: rgb(216, 175, 93); text-transform: uppercase; }
+.category-title-wrapper h2 { font-size: 28px; font-weight: 800; color: rgb(216, 175, 93); text-transform: uppercase; }
 
 .item-wrapper { display: flex; flex-direction: row; width: 85%; margin: -18px auto; align-items: baseline; }
 
@@ -32,9 +32,9 @@ body { margin: 0px; font-family: Montserrat; }
 
 .price { flex-basis: 14%;  text-align: right; }
 
-.item-title {font-family: originalburger; text-transform: capitalize; font-size: 26px; font-weight: 500; color: white; }
+.item-title {font-family: originalburger; text-transform: capitalize; font-size: 24px; font-weight: 500; color: white; }
 
-.item-description {font-family: onion; font-size: 16px; color: rgb(216, 175, 93); margin-top: -20px; font-weight: 500; -webkit-text-stroke-width: 0.3px;
+.item-description {font-family: onion; font-size: 14px; color: rgb(216, 175, 93); margin-top: -20px; font-weight: 500; -webkit-text-stroke-width: 0.3px;
     -webkit-text-stroke-color: rgb(0, 0, 0); }
 
 .item-price { font-size: 16px; color: white; font-weight: 500; }
