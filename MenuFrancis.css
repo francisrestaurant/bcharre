@@ -37,7 +37,7 @@ body { margin: 0px; font-family: Montserrat; }
 .item-description {font-family: onion; font-size: 20px; color: rgb(216, 175, 93); margin-top: -20px; font-weight: 500; -webkit-text-stroke-width: 0.3px;
     -webkit-text-stroke-color: rgb(0, 0, 0); }
 
-.item-price { font-size: 22px; color: white; font-weight: 500; }
+.item-price { font-size: 18px; color: white; font-weight: 500; }
 
 .arabic-title { text-align: center; font-size: 70px; -webkit-text-stroke-width: 0.1px;
     -webkit-text-stroke-color: rgb(0, 0, 0); }
